@@ -16,7 +16,7 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenConvert567RubleThen8Dollar() {
+    public void whenConvert567RubleThen7Dot76Dollar() {
        float in = 567;
        float expected = 7.76f;
        float eps = 0.0001f;
@@ -25,7 +25,7 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenConvert18EuroThen21Dollar() {
+    public void whenConvert18EuroThen21Dot0Dollar() {
      float in = 18;
      float expected = 21.06f;
      float eps = 0.0001f;
